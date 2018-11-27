@@ -14,6 +14,7 @@
         esto es un comentario multilínea
         */
         echo '<h3>Listado de videojuegos</h3>';
+        //Se utiliza el punto para concatenar líneas de texto
         echo '<ul>'
                 .'<li>GTA</li>'
                 .'<li>Fifa</li>'
