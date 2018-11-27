@@ -14,7 +14,7 @@
                 .'<li>GTA</li>'
                 .'<li>Fifa</li>'
                 .'<li>Mario Bros</li>'
-                .'<li>Mario Bros'
+                .'<li>Mario Bros</li>'
                 ;
     ?>
 
