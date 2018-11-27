@@ -53,6 +53,19 @@
         $mi_nombre = "Dámaso Daniel Télles Ochoa";
         var_dump($mi_nombre);
 
+    ?>
+    <h1>Constantes en php</h1>
+    
+    <?php
+    // Una constante es un contenedor de información que no puede variar.
+    //Sintaxis para declarar una constante
+    define('nombre', 'Dámaso Daniel');
+    define('web','www.damasodaniel.mx');
+
+    //Forma de imprimir una constante en php
+    echo nombre;
+
+
 
 
     ?>
