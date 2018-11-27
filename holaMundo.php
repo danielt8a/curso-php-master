@@ -10,6 +10,9 @@
     <h1>Master en PHP</h1>
     <?php
         // Esto es un comentario en PHP
+        /*
+        esto es un comentario multilínea
+        */
         echo '<h3>Listado de videojuegos</h3>';
         echo '<ul>'
                 .'<li>GTA</li>'
