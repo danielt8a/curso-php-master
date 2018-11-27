@@ -21,9 +21,44 @@
                 .'<li>Mario Bros</li>'
                 .'<li>Mario Bros</li>'
                 ;
+        echo '<h1>Variables</h1>';
+
+        // Creando una variable, sintaxis $nombre_variable
+        $mi_primera_variable = "Hola mundo desde una variable";
+
+        echo '<h2>'.$mi_primera_variable.'</h2><br>';
+
+        /* Tipos de datos 
+        Entero (int / integer) = 99
+        Coma flotante / decimales (float / double) = 3.45
+        Cadenas (string) = "Soy un string"
+        Boleano (bool) = true falso
+        null
+        Array (colección de datos)
+        Objetos
+        */
+
+        $numero = 5;
+
+        echo gettype($numero);
+        echo "<br>";
+
+        /* Restricciones en las variables
+        No es recomendable utilizar -, palabras reservadas, caracteres como +,*,?, etc.
+        
+        */
+
+        /* Debugear una variable */
+
+        $mi_nombre = "Dámaso Daniel Télles Ochoa";
+        var_dump($mi_nombre);
+
+
+
     ?>
 
     <!-- Forma corta de hacer un echo -->
+    <br>
     <?= 'Aprendiendo el excelente lenguaje PHP' ?>
 
 </body>
