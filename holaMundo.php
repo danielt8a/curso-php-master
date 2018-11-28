@@ -70,9 +70,24 @@
 
     echo PHP_VERSION.'<br>';
     echo PHP_OS.'<br>';
-    echo PHP_EXTENSION_DIR;
+    echo PHP_EXTENSION_DIR.'<br>';
 
+    ?>
 
+    <h1>Operadores aritméticos</h1>
+    
+    <?php
+
+    //Operadores aritméticos
+
+    $numero1 = 55;
+    $numero2 = 33;
+    // Las operaciones deben ir dentro de un paréntesis
+    echo 'Suma: '.($numero1 + $numero2).'<br>';
+    echo 'Resta: '.($numero1 - $numero2).'<br>';
+    echo 'Multiplicación: '.($numero1 * $numero2).'<br>';
+    echo 'División: '.($numero1 / $numero2).'<br>';
+    echo 'Módulo: '.($numero1 % $numero2).'<br>';
 
     ?>
 
