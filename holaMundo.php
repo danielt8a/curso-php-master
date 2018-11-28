@@ -69,7 +69,10 @@
     //Constantes predefinidas
 
     echo PHP_VERSION.'<br>';
-    echo PHP_OS;
+    echo PHP_OS.'<br>';
+    echo PHP_EXTENSION_DIR;
+
+
 
     ?>
 
