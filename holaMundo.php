@@ -89,6 +89,8 @@
     echo 'División: '.($numero1 / $numero2).'<br>';
     echo 'Módulo: '.($numero1 % $numero2).'<br>';
 
+    //Operadores incremento y decremento
+
     ?>
 
     <!-- Forma corta de hacer un echo -->
