@@ -91,6 +91,31 @@
 
     //Operadores incremento y decremento
 
+    $year = 2019;
+    //Incremento
+    $year++;
+
+    //Decremento
+    $year--;
+
+    //Pre-incremento
+    ++$year;
+
+    //Pre-Decremento
+    --$year;
+
+    // Operadores de asignación
+
+    $edad = 55;
+
+    echo $edad.'<br>';
+
+    //$edad = $edad + 5;
+
+    echo ($edad+=5);
+    
+    
+
     ?>
 
     <!-- Forma corta de hacer un echo -->
