@@ -17,6 +17,10 @@
             <label for="apellidos">Apellidos</label>
             <input type="text" name="apellidos">
         </p>
+        <p>
+            <label for="correo">Correo</label>
+            <input type="text" name="correo">
+        </p>
 
         <button name="button">Enviar</button>
         
