@@ -19,7 +19,7 @@
         </p>
         <p>
             <label for="correo">Correo</label>
-            <input type="text" name="correo">
+            <input type="email" name="correo" pattern="usuario@dominio.com" placeholder="usuario@dominio.com">
         </p>
 
         <button name="button">Enviar</button>
