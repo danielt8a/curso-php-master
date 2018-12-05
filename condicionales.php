@@ -19,7 +19,7 @@
     <= Menor o igual qué
     >= mayor o igual qué
 
-*/
+ */
 
 $color = "rojo";
 
@@ -29,10 +29,11 @@ if ($color == "rojo") {
     echo "El color no es rojo";
 }
 
-//Else if
+//If anidados
 
 $dia = 3;
 
+/*
 if ($dia == 1){
     echo "Es lunes";
 } else {
@@ -51,6 +52,22 @@ if ($dia == 1){
             }
         }
     }
+}*/ 
+
+// else if
+
+if($dia == 1){
+    echo "Lunes";
+}elseif($dia == 2){
+    echo "Martes";
+}elseif($dia == 3){
+    echo "Miércoles";
+}elseif($dia == 4){
+    echo "Jueves";
+}elseif($dia == 5){
+    echo "Viernes";
+}else{
+    echo "Es fin de semana";
 }
 
 
