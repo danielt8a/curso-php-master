@@ -61,17 +61,17 @@ if ($dia == 1){
 
 // else if
 
-if($dia == 1){
+if ($dia == 1) {
     echo "Lunes";
-}elseif($dia == 2){
+} elseif ($dia == 2) {
     echo "Martes";
-}elseif($dia == 3){
+} elseif ($dia == 3) {
     echo "Miércoles";
-}elseif($dia == 4){
+} elseif ($dia == 4) {
     echo "Jueves";
-}elseif($dia == 5){
+} elseif ($dia == 5) {
     echo "Viernes";
-}else{
+} else {
     echo "Es fin de semana";
 }
 
@@ -81,9 +81,9 @@ $edad1 = 18;
 $edad2 = 64;
 $edad_oficial = 20;
 
-if($edad_oficial >= $edad1 && $edad_oficial <= $edad2 ){
+if ($edad_oficial >= $edad1 && $edad_oficial <= $edad2) {
     echo "Está en edad de trabajar";
-}else{
+} else {
     echo "No puede trabajar";
 }
 
@@ -91,11 +91,39 @@ if($edad_oficial >= $edad1 && $edad_oficial <= $edad2 ){
 
 $pais = "México";
 
-if($pais == "Mexico" || $pais == "España" || $pais == "Colombia"){
+if ($pais == "Mexico" || $pais == "España" || $pais == "Colombia") {
     echo "En este país se habla español";
 } else {
     echo "En este país no se habla español";
 }
+
+// Switch
+
+$dia = 4;
+
+switch ($dia) {
+    case 1:
+        echo "Lunes";
+        break;
+    case 2:
+        echo "Martes";
+        break;
+    case 3:
+        echo "Miércoles";
+        break;
+    case 4:
+        echo "Jueves";
+        break;
+    case 5:
+        echo "Viernes";
+        break;
+    default:
+        echo "Es fin de semana";
+
+}
+
+
+
 
 
 ?>
