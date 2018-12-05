@@ -19,6 +19,11 @@
     <= Menor o igual qué
     >= mayor o igual qué
 
+    ++ Operadores lógicos
+    && AND
+    ||  OR
+    !   NOT
+    and, or
  */
 
 $color = "rojo";
@@ -70,7 +75,27 @@ if($dia == 1){
     echo "Es fin de semana";
 }
 
+// Operadores lógicos
+
+$edad1 = 18;
+$edad2 = 64;
+$edad_oficial = 20;
+
+if($edad_oficial >= $edad1 && $edad_oficial <= $edad2 ){
+    echo "Está en edad de trabajar";
+}else{
+    echo "No puede trabajar";
+}
+
+//OR
+
+$pais = "México";
+
+if($pais == "Mexico" || $pais == "España" || $pais == "Colombia"){
+    echo "En este país se habla español";
+} else {
+    echo "En este país no se habla español";
+}
 
 
 ?>
-
