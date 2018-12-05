@@ -7,6 +7,18 @@
     }else {
         otras instrucciones
     }
+
+    //Operadores de comparación
+    == Igual
+    === Identico
+    != diferente
+    <> diferente
+    !== no identico
+    < Menor qué
+    > Mayor qué
+    <= Menor o igual qué
+    >= mayor o igual qué
+
 */
 
 $color = "rojo";
@@ -16,6 +28,31 @@ if ($color == "rojo") {
 } else {
     echo "El color no es rojo";
 }
+
+//Else if
+
+$dia = 3;
+
+if ($dia == 1){
+    echo "Es lunes";
+} else {
+    if($dia == 2){
+        echo "Es martes";
+    }else {
+        if($dia == 3){
+            echo "Es miércoles";
+        }else {
+            if ($dia == 4){
+                echo "Es jueves";
+            }else {
+                if ($dia == 5){
+                    echo "Es viernes";
+                }
+            }
+        }
+    }
+}
+
 
 
 ?>
