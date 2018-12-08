@@ -38,6 +38,30 @@ while ($contador <= 10) {
     $contador++;
 }
 
+echo "<hr>";
+/* DO WHILE
+// La condición se evalúa al final. Es útil cuando necesitamos que algo se ejecute una vez.
+
+do{
+    //Bloque de instrucciones
+}while(condicion); 
+*/
+
+$edad = 18;
+$contador = 1;
+
+do{
+    echo "Tienes accceso al local privado $contador <br>";
+} while($edad >= 18 && $contador <= 10);
+
+/* Bucle For
+Sintaxis
+for (variable contador, condición, incremento contador){
+    // Bloque de instrucción
+}
+
+*/
+
 
 ?>
 
