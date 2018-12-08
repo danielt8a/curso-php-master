@@ -70,6 +70,23 @@ for($i = 0; $i <= 100; $i++){
 
 echo "<h1>El resultado es: $resultado</h1>";
 
+echo "<hr>";
+
+// Ejemplo tabla de multiplicar con for
+
+if (isset($_GET['numero'])) {
+    //Cambiar el tipo string a int
+    $numero = (int)$_GET['numero'];
+} else {
+    $numero = 1;
+}
+
+echo "<h1>Tabla de multiplicar del número $numero</h1>";
+
+for ($contador = 1; $contador <= 10; $contador++) {
+    echo "$numero x $contador = " . ($numero * $contador) . "<br>";
+    
+}
 
 
 ?>
